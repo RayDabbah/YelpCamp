@@ -11,5 +11,14 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.15.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayDabbah/YelpCamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RayDabbah/YelpCamp/issues"
+  },
+  "homepage": "https://github.com/RayDabbah/YelpCamp#readme"
 }
