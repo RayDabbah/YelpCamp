@@ -1,0 +1,68 @@
+h1 {
+	color: blue;
+	text-shadow: 4px 2px #aba;
+	font-size: 5em;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+* {
+	background-color: #E0FFE0;
+}
+
+.grounds {
+	margin: 0 auto;
+	opacity: 0.15;
+	position: absolute;
+	width: 500px;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+div {
+	float: right;
+    clear: inherit;
+	background-color: transparent;
+	width: 500px;
+	height: 350px;
+	text-align: center;
+	margin: 10px;
+	border: grey 1px solid;
+}
+
+h2 {
+	text-transform: capitalize;
+	text-shadow: 3px 2px #1f1;
+	background-color: transparent;
+	font-size: 2em;
+	text-align: center;
+}
+
+img {
+	opacity: 1.0;
+	border: 2px solid grey;
+	height: 70%;
+	width: 80%;
+	 margin-bottom: 10%;
+    /*margin-top: 10%;*/
+}
+
+footer {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+p,
+form {
+	text-align: center;
+	justify-content: center;
+	font-size: 2.5em;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
