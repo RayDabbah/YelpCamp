@@ -1,4 +1,5 @@
-var express = require("express");
+
+var express = require('express');
 var app = express();
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
@@ -28,4 +29,4 @@ app.post("/campgrounds", (req, res) => {
 app.get("/campgrounds/new", (req, res) => res.render("newCampground"));
 
 
-app.listen(3000, "localhost", ()=> console.log('The server has started.'));
+app.listen(8080, 'localhost', () => console.log('Server started'));
